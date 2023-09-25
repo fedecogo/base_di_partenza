@@ -27,14 +27,17 @@ header div img {
     margin-bottom: 20px;
 }
 header nav ul {
-    margin: 0;
+    margin: 4;
+    text-align: center;
 }
 header nav li {
     list-style: none;
+    display: inline-block;
 }
 header nav li a {
     color: white;
     text-decoration: none;
+    margin-left: 15px;
 }
 header nav li a:hover {
     color: red;
@@ -58,6 +61,7 @@ section {
 section h2 {
     text-align: center;
     color: #333;
+    background-color: #969292;
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -66,7 +70,7 @@ section h2 {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
-    font-size: 2.6rem;
+    font-size: 3rem;
     font-weight: bold;
     letter-spacing: -0.03em;
     margin-bottom: 0.7em;
@@ -107,6 +111,7 @@ table {
 caption {
     font-weight: bold;
     font-style: italic;
+    margin-bottom: 5px;
 }
 thead tr {
     background-color: #3f6bca;
